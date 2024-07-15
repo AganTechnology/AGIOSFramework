@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
   s.summary          = 'Agan Frameword'
 
   s.description      = <<-DESC
-  该内容用于对接阿甘通讯能力
+  该内容用于对接通讯能力， 使用该 pod ，请严格遵循通讯内容协议
                        DESC
 
-  s.homepage         = 'https://github.com/13377999/AGEngineKits'
+  s.homepage         = 'https://github.com/AganTechnology/AGIOSFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Copyright', :text => 'Copyright © 2024 AganTechnology. All Rights Reserved.\n' }
   s.author           = { '13377999' => 'shu_pian@aganyunke.com' }
   s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineKits2_0_0.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
