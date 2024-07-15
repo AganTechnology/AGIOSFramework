@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint AGEngineKit.podspec' to ensure this is a
+# Be sure to run `pod lib lint AGEngineKits.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AGEngineKit'
+  s.name             = 'AGEngineKits'
   s.version          = '2.0.0'
   s.summary          = 'Agan Frameword'
 
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   该内容用于对接阿甘通讯能力
                        DESC
 
-  s.homepage         = 'https://github.com/13377999/AGEngineKit'
+  s.homepage         = 'https://github.com/13377999/AGEngineKits'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '13377999' => 'shu_pian@aganyunke.com' }
-  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineKit2_0_0.zip' }
+  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineKits2_0_0.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
