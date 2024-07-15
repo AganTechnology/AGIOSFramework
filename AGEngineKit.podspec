@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint AGIOSFramework.podspec' to ensure this is a
+# Be sure to run `pod lib lint AGEngineKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AGIOSFramework'
+  s.name             = 'AGEngineKit'
   s.version          = '2.0.0'
   s.summary          = 'Agan Frameword'
 
@@ -15,20 +15,20 @@ Pod::Spec.new do |s|
   该内容用于对接阿甘通讯能力
                        DESC
 
-  s.homepage         = 'https://github.com/13377999/AGIOSFramework'
+  s.homepage         = 'https://github.com/13377999/AGEngineKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '13377999' => 'shu_pian@aganyunke.com' }
-  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGIOSFramework2_0_0.zip' }
+  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineFramework2_0_0.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'AGIOSFramework/Classes/**/*.{sh,m}'
-  s.resources = 'AGIOSFramework/Assets/*'
+  s.source_files = 'AGEngineKit/Classes/**/*.{sh,m}'
+  s.resources = 'AGEngineKit/Assets/*'
   
-  s.vendored_frameworks = ['AGIOSFramework/Framework/*.framework', 'AGIOSFramework/Framework/*.xcframework']
-  s.vendored_libraries  = ['AGIOSFramework/Framework/*.a']
+  s.vendored_frameworks = ['AGEngineKit/Framework/*.framework', 'AGEngineKit/Framework/*.xcframework']
+  s.vendored_libraries  = ['AGEngineKit/Framework/*.a']
   s.dependency 'AliyunOSSiOS'
   # 系统framework库
   s.frameworks = 'ReplayKit', 'CoreGraphics', 'Accelerate', 'SystemConfiguration', 'AssetsLibrary',
@@ -40,5 +40,5 @@ Pod::Spec.new do |s|
   s.requires_arc        = false
   s.xcconfig            = {'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1'}
   
-  s.script_phase = { :name => 'CP BUNDLES', :script => '${PODS_TARGET_SRCROOT}/AGIOSFramework/Classes/copy.sh', :execution_position => :before_compile }
+  s.script_phase = { :name => 'CP BUNDLES', :script => '${PODS_TARGET_SRCROOT}/AGEngineKit/Classes/copy.sh', :execution_position => :before_compile }
 end
