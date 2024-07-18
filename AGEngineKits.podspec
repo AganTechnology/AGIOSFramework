@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGEngineKits'
-  s.version          = '2.0.0'
+  s.version          = '2.2.0'
   s.summary          = 'Agan Frameword'
 
   s.description      = <<-DESC
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/AganTechnology/AGIOSFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Copyright', :text => 'Copyright © 2024 AganTechnology. All Rights Reserved.\n' }
-  s.author           = { '13377999' => 'shu_pian@aganyunke.com' }
-  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineKits2_0_0.zip' }
+  s.author           = { 'aganyunke' => 'shu_pian@aganyunke.com' }
+  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineKits2_2_0.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
