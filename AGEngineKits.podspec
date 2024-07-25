@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGEngineKits'
-  s.version          = '2.2.1'
+  s.version          = '2.2.2'
   s.summary          = 'Agan Frameword'
 
   s.description      = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Copyright', :text => 'Copyright © 2024 AganTechnology. All Rights Reserved.\n' }
   s.author           = { 'aganyunke' => 'shu_pian@aganyunke.com' }
-  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineKits2_2_1.zip' }
+  s.source           = { :http => 'https://agan-cloud-public-resources.oss-cn-hangzhou.aliyuncs.com/release/AGEngineKits2_2_2.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
